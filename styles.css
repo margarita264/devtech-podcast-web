@@ -60,3 +60,25 @@ footer{
   text-decoration: none;
   color: #172c66;
 }
+.col-10{
+  animation: movimiento 2.5s linear infinite;
+}
+
+.col-10 img{
+  width: 400px;
+  border-radius: 50%;
+  display: block;
+}
+
+
+@keyframes movimiento{
+  0%{
+      transform: translateY(0);
+  }
+  50%{
+      transform: translateY(30px);
+  }
+  100%{
+      transform: translateY(0);
+  }
+}
