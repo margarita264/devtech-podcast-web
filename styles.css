@@ -1,10 +1,10 @@
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: #fef6e4;
+  background-color: #5584AC;
 }
 
 nav{
-  background-color: #f3d2c1;
+  background-color: #22577E;
 }
 
 .img {
@@ -13,17 +13,25 @@ nav{
 }
 
 h1 {
-  color: #001858;
+  color:black;
 }
 
 p {
-  color: #172c66;
+  color: black;
 }
 
 .title {
-  color: #001858;
+  color: black;
 }
-
+.nav-title{
+  color: white;
+  font-size: 150%;
+  font-family: "Segoe UI";
+}
+.nav-link{
+  color: white;
+  font-family: "Segoe UI";
+}
 .feature {
   background-color: #8bd3dd;
 }
@@ -31,20 +39,20 @@ p {
 .card {
   border-radius: 50px;
   border: none;
-  background-color: #fef6e4;
+  background-color: #FAFFAF;
 }
 
 .btn {
-  background-color: #f582ae;
+  background-color: #FAFFAF;
   border-radius: 20px;
-  color: white;
+  color: black;
   font-weight: bold;
   border: none;
 }
 
 .btn:hover {
-  background-color: #f582ae;
-  color: #172c66;
+  background-color: #22577E;
+  color: white;
   font-weight: bold;
 }
 
@@ -58,7 +66,7 @@ footer{
 
 .faq {
   text-decoration: none;
-  color: #172c66;
+  color: black;
 }
 .col-10{
   animation: movimiento 2.5s linear infinite;
